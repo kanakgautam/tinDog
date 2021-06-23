@@ -1,2 +1,2 @@
 # tinDog
-this is a tinder advertisement page
+this is a tinDog advertisement page
