@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/2f2bd6baa0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>TinDog</title>
+  </head>
+  <body>
+    <section id="title" class="colored-section">
+      <div class="container-fluid">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand title-heading colored-text" href="#">tinDog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row" id="title-row">
+          <div class="col-lg-6">
+            <p class="title-heading">Meet new and interesting dogs nearby.</p>
+            <button type="button" class="btn btn-light btn-lg title-btn">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-dark btn-lg title-btn">
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/dimage1.png" alt="dog-image" class="title-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features" class="white-section">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <i class="fas fa-thumbs-up feature-icon"></i>
+          <p class="feature-heading">Easy to use</p>
+          <p class="feature-text">So easy even your dog could do it.</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <i class="fas fa-video feature-icon"></i>
+          <p class="feature-heading">Video calling</p>
+          <p class="feature-text">Dogs can meet on video.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-paw feature-icon"></i>
+          <p class="feature-heading">Dog friendly</p>
+          <p class="feature-text">Designed especially for Dog interaction.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <section id="testimonials" class="colored-section">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/dog1.png" class="testimonial-image" alt="..." />
+            <p class="testimonial-text">
+              tinDog is amazing, I have met wonderful dogs here.
+            </p>
+            <p>Rocko</p>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dog2.png" class="testimonial-image" alt="..." />
+            <p class="testimonial-text">
+              tinDog helped me to make many friends.
+            </p>
+            <p>Shampoo</p>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dog3.png" class="testimonial-image" alt="..." />
+            <p class="testimonial-text">I met my love of life at tinDog.</p>
+            <p>Oscar</p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- pricing -->
+
+    <section id="pricing">
+      <div class="row">
+          <p class="pricing-heading">A plan For every Dog's need.</p>
+          <p class="pricing-text">Browse and choose your favourite plan.</p>
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-center">
+                <div class="card-header">
+                  <h2>Bull-Dog</h2>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">10$</h3>
+                  <p class="card-text">84 days</p>
+                  <a href="#" class="btn btn-outline-dark">Register</a>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-center">
+                <div class="card-header">
+                  <h2>German-Spherd</h2>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">15$</h3>
+                  <p class="card-text">196 days</p>
+                  <a href="#" class="btn btn-outline-dark">Register</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-center">
+                <div class="card-header">
+                  <h2>Labrador</h2>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">6$</h3>
+                  <p class="card-text">56 Days</p>
+                  <a href="#" class="btn btn-outline-dark">Register</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-center">
+                <div class="card-header">
+                  <h2>Husky</h2>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">20$</h3>
+                  <p class="card-text">280 Days</p>
+                  <a href="#" class="btn btn-outline-dark">Register</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <!-- download -->
+      
+    </section>
+    <section id="download" class="colored-section">
+        <p class="title-heading">Find the true love of your Dog's life Today.</p>
+        <button type="button" class="btn btn-outline-light btn-lg">
+            <i class="fab fa-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-lg">
+            <i class="fab fa-google-play"></i> Download
+          </button>
+        
+    </section>
+    <section id="footer">
+        <i class="fab fa-twitter footer-icon"></i>
+        <i class="fab fa-facebook-f footer-icon"></i>
+        <i class="fab fa-instagram footer-icon"></i>
+        <i class="fas fa-envelope f footer-icon"></i>
+        <p>© Copyright 2021 TinDog</p>
+    </section>
+  </body>
+</html>

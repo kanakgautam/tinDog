@@ -1,0 +1,163 @@
+
+.colored-section{
+    background-color: #FF2E63;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* title */
+
+.container-fluid{
+    padding: 5% 15%;
+}
+
+#title-row{
+    padding: 8% 0 1%;
+}
+
+.title-heading{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 4rem;
+}
+
+.title-image{
+    border-radius: 10%;
+    height: 60%;
+    margin-left: 200px;
+    transform: rotate(30deg);
+    position: absolute;
+}
+
+.title-btn{
+    margin: 50px 5px 30px;
+}
+
+/* features */
+
+#features{
+    padding: 8% 15% ;
+    text-align: center;
+    position: relative;
+}
+
+.feature-heading, .pricing-heading{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.feature-icon{
+    font-size: 3rem;
+    color: #FF2E63;
+    padding: 20px;
+}
+
+.feature-icon:hover{
+    color: #ff0241;
+}
+
+.feature-text,.pricing-text{
+    padding: 10px 50px;
+    color:rgb(185, 179, 179);
+}
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.testimonial-image{
+    width:400px;
+    height:350px;
+    border-radius: 75%;
+    align-items: center;
+    
+}
+
+.testimonial-text{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-item{
+    padding:5% 10%;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 8% 12%;
+    text-align: center;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+/* download */
+
+#download{
+    padding: 8% 25%;
+    text-align: center;
+}
+ 
+/* footer */
+
+#footer{
+    padding: 6%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 30px 15px;
+}
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-heading{
+        font-size: 2.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 3.5rem;
+    }
+
+    .title-image{
+        border-radius: 10%;
+        height: 100%;
+        margin: 0 50px;
+        transform: rotate(0);
+        position: static;
+    }
+
+    #download{
+        padding: 10% 5%;
+    }
+
+    .testimonial-image{
+        width:200px;
+        height:150px;
+        border-radius: 75%;
+        align-items: center;
+        
+    }
+
+
+}
